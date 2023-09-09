@@ -9,7 +9,7 @@ async function copyText(e) {
     try {
         await navigator.clipboard.writeText(link);
         // alert(`Copied the text: ${link}`);
-        alert(`Copied to Clipboard`);
+        alert(`📋Copied to Clipboard`);
     } catch (err) {
         console.error(err);
     }
