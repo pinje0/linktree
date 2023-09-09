@@ -26,6 +26,12 @@ header {
     background-color: #fff;
 }
 
+.share-button svg {
+    fill: #000;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
 .container {
     width: 91%;
     max-width: 680px;
@@ -75,6 +81,11 @@ a {
     background-color: rgb(52, 52, 52);
 }
 
+.tile-share-button svg {
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
 .image-container {
     height: 96px;
     width: 96px;
@@ -82,12 +93,12 @@ a {
     overflow: hidden;
 }
 
+.image-container img {
+    height: 100%;
+}
+
 .icon {
     margin: 8px 10px;
     width: 44px;
     height: 44px;
-}
-
-.image-container img {
-    height: 100%;
 }
