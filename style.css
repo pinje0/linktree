@@ -102,3 +102,9 @@ a {
     width: 44px;
     height: 44px;
 }
+
+/* Sweet Alert CSS */
+.swal2-popup {
+    font-size: 0.5em;
+    margin: 15px;
+}
