@@ -10,15 +10,19 @@ async function copyText(e) {
         await navigator.clipboard.writeText(link);
         // alert(`Copied the text: ${link}`);
         // alert(`📋Copied to Clipboard`);
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: '📋Copied to Clipboard',
-            showConfirmButton: false,
-            timer: 800,
-            width: 200,
-            height: 100,
-            padding: '1em',
+        // Swal.fire({
+        //     position: 'top-end',
+        //     title: '📋Copied to Clipboard',
+        //     showConfirmButton: false,
+        //     timer: 550,
+        //     width: '150px',
+        //     height: '50px',
+        //     padding: '1em',
+        // });
+        Snackbar.show({
+            text: '📋Copied to Clipboard',
+            pos: 'bottom-right',
+            duration: '1500',
         });
     } catch (err) {
         console.error(err);
