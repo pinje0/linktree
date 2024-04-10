@@ -10,4 +10,4 @@ or u can just click link on the top-right side
 
 <br>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/pinje0/personal-website-tailwindcss)
+![GitHub last commit](https://img.shields.io/github/last-commit/pinje0/linktree)
