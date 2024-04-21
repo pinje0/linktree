@@ -27,6 +27,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    height: 100vh;
     /* font-family: verdana, Tahoma, sans-serif; */
     font-family: monospace, "Inter", sans-serif;
 }
