@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Page not found !</title>
+
+        <!-- style -->
+        <style>
+            *,
+            body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: monospace, "Inter", sans-serif;
+            }
+
+            img {
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                -webkit-user-drag: none;
+                user-drag: none;
+                -webkit-touch-callout: none;
+            }
+
+            .container {
+                width: 100vw;
+                height: 100vh;
+                background-color: #18181b;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+            }
+
+            .container h1 {
+                margin-bottom: 2rem;
+            }
+
+            .container p {
+                font-size: 1.5rem;
+                margin-top: 1.5rem;
+            }
+        </style>
+
+        <!-- Title Icon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/title-icon/header-icon-eyes.ico" />
+    </head>
+    <body ondragstart="return false;" ondrop="return false;">
+        <div class="container">
+            <h1>Page not found!</h1>
+            <img src="assets/img/404.png" alt="404" width="600px" />
+            <p>Sorry, we cannot find the requested page.</p>
+        </div>
+    </body>
+</html>

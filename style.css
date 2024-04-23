@@ -9,6 +9,10 @@ img {
     -webkit-touch-callout: none;
 }
 
+:root {
+    --footer-text: #94a3b8;
+}
+
 title,
 h1,
 p,
@@ -127,6 +131,31 @@ p {
     margin: 8px 10px;
     width: 44px;
     height: 44px;
+}
+
+.footer-p {
+    color: var(--footer-text);
+    font-size: 12px;
+    line-height: 16px;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+        backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+.footer-p a {
+    color: var(--footer-text);
+    font-size: 12px;
+    line-height: 16px;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+        backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+.footer-p a:hover {
+    filter: brightness(1.25);
+    -webkit-filter: brightness(1.25);
 }
 
 /* Sweet Alert CSS */
