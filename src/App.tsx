@@ -67,7 +67,7 @@ function App() {
             </header>
             <div className="container">
                 <div className="image-container">
-                    <img src="./src/assets/img/pinje.jpeg" alt="" />
+                    <img src="/static/images/pinje.jpeg" alt="" />
                 </div>
                 <h1>@pinje</h1>
 
