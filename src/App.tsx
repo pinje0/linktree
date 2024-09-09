@@ -67,7 +67,7 @@ function App() {
             </header>
             <div className="container">
                 <div className="image-container">
-                    <img src="/static/images/pinje.jpeg" alt="" />
+                    <img src="/linktree/static/images/pinje.jpeg" alt="" />
                 </div>
                 <h1>@pinje</h1>
 
@@ -108,7 +108,10 @@ function App() {
                         </svg>
                     </div>
                     <p>{language == "en" ? socialLinks.github.en : socialLinks.github.jp}</p>
-                    <a href="https://github.com/pinje0" onClick={(event) => copyToClipboard(event, "https://github.com/pinje0")}>
+                    <a
+                        href="https://github.com/pinje0"
+                        onClick={(event) => copyToClipboard(event, "https://github.com/pinje0")}
+                    >
                         <div className="tile-share-button">
                             <svg xmlns="http://www.w3.org/2000/svg" height="1.3em" viewBox="0 0 448 512">
                                 <path
@@ -121,7 +124,12 @@ function App() {
                 </a>
 
                 {/* <!--* Steam  --> */}
-                <a className="tile" href="https://steamcommunity.com/id/kyotorainn" target="_blank" rel="noopener noreferrer">
+                <a
+                    className="tile"
+                    href="https://steamcommunity.com/id/kyotorainn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <div className="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" height="2.5em" viewBox="0 0 496 512">
                             <path
@@ -165,7 +173,10 @@ function App() {
                     <a
                         href="https://open.spotify.com/user/21mxjp3gplpyos5ef7ung3iwq?si=e82e8feab08e4bfc"
                         onClick={(event) =>
-                            copyToClipboard(event, "https://open.spotify.com/user/21mxjp3gplpyos5ef7ung3iwq?si=e82e8feab08e4bfc")
+                            copyToClipboard(
+                                event,
+                                "https://open.spotify.com/user/21mxjp3gplpyos5ef7ung3iwq?si=e82e8feab08e4bfc"
+                            )
                         }
                     >
                         <div className="tile-share-button">
