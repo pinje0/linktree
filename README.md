@@ -4,7 +4,7 @@ This project just _making simple things complicated_, I just convert my vanilla 
 
 ### Link
 
-Link to the website : https://pinje-linktree.vercel.app/ <br>
+Link to the website : https://pinje0.github.io/linktree/ <br>
 or u can just click link on the top-right side
 
 ### Built With
